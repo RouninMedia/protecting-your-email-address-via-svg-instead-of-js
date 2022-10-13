@@ -22,14 +22,14 @@ _____
 ## Advantages of an SVG-based approach to protecting email addresses
 The main advantage of this **SVG-based approach** to protecting emails, is that it involves **no JavaScript**.
 
-As such, even when a human visitor has their JavaSCript turned off, the email address displayed on the page remains usable, accessible and protected, while remaining secure and hidden from spambots.
+As such, even when a human visitor has their JavaScript turned off, the email address displayed on the page remains usable, accessible and protected, while remaining secure and hidden from spambots.
 
-Another advantage is that embedded SVGs are *image-like* but not images.
+Another advantage is that embedded **SVGs** are *image-like* but *not* images.
 
-As replaced elements embedded within a hypertext document, SVGs may conceal an email address from spambots nearly as effectively as an image might. 
+As replaced elements embedded within a hypertext document, **SVGs** may conceal an email address from spambots nearly as effectively as an image might. 
 
-But strictly, SVGs are *graphics documents* rather than actual images.
+But, strictly, **SVGs** are *graphics documents* rather than actual images.
 
-Consequently, *unlike with an image*, a human visitor may still copy the email address by right-clicking on the embedded SVG.
+Consequently, *unlike with an image*, a human visitor may still copy the email address by right-clicking on the embedded **SVG**.
 
 This would not be possible with a conventional image.
