@@ -20,9 +20,13 @@ Because it's based on **SVG**.
 _____
 
 ## Advantages of an SVG-based approach to protecting email addresses
+
+### 1. No JavaScript Required
 The main advantage of this **SVG-based approach** to protecting emails, is that it involves **no JavaScript**.
 
 As such, even when a human visitor has their JavaScript turned off, the email address displayed on the page remains usable, accessible and protected, while remaining secure and hidden from spambots.
+
+### 2. Conceals content like an image; Copyable like text
 
 Another advantage is that embedded **SVGs** are *image-like* but *not* images.
 
