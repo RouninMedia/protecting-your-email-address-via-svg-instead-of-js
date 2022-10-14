@@ -46,7 +46,7 @@ As replaced elements embedded within a hypertext document, **SVGs** may conceal 
 
 But, strictly, **SVGs** are *graphics documents* rather than actual images.
 
-Consequently, *unlike with an image*, a human visitor may still copy the email address by right-clicking on the embedded **SVG**.
+Consequently, *unlike with an image*, a human visitor may still copy the email address by **right-clicking** on the `<text>` element in the embedded **SVG**.
 
 This would not be possible with a conventional image.
 
