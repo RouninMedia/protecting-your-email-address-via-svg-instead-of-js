@@ -71,7 +71,6 @@ Note that the same SVG graphics document may be embedded in hypertext once, or m
 }
     
 </style>
-    
 </head>
 
 <body>
