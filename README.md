@@ -24,7 +24,7 @@ It's different from all conventional email protection techniques.
 
 Because it's based on **SVG**.
 
-**N.B.** *This technique - and any other email-protection technique utilising front-end-technologies - **won't** protect your published email address from being harvested by the most determined and sophisticated spambots. But like many JS-based email-protection techniques, it will still protect you from a great many unsophisticated harvesters, keeping your email successfully hidden from any simple or amateurish scripts seeking to trawl the web, locating and copying any unprotected email addresses they find.*
+**N.B.** *This technique - and any other email-protection technique utilising front-end-technologies - **won't** protect your published email address from being harvested by the most determined and sophisticated spambots. But, as with many JS-based email-protection techniques, it **will** protect you nevertheless from a great many unsophisticated harvesters and keep your email successfully hidden from any simple or amateurish scripts trawling the web, seeking to copy any unprotected email addresses they find.*
 
 _____
 
