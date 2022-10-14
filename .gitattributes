@@ -1,0 +1,2 @@
+*.html linguist-detectable=false
+*.svg linguist-detectable=true
