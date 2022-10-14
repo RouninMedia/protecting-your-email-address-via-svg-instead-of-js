@@ -142,6 +142,6 @@ As ever, it's important to ensure that this setup, while protecting against spam
 
 On this basis, note the following in the SVG graphics document:
 
- - the entire SVG document is `aria-labelledby` the SVG document `<title>` indicating a call-to-action
+ - the entire SVG document is `aria-labelledby` the SVG document `<title>`, indicating a call-to-action
  - the anchor element (`<a>`) inside the SVG has an `aria-label` which has the same call-to-action
- - the SVG is styled such that when the tab-focus falls on the anchor element (`<a>`), both child-elements, `<rect />` and the `<text />`, are highlighted
+ - the SVG is styled such that when the tab-focus falls on the anchor element (`<a>`), the child-elements, `<rect />` and the `<text />`, are both highlighted
