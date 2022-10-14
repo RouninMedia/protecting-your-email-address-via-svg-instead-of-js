@@ -18,7 +18,9 @@ We should consider the school of thought which advocates that while JS may enhan
 
 _____
 
-The technique detailed on this page comes from an entirely different place. It's different from all conventional email protection techniques.
+The technique detailed on this page utilises an entirely different approach.
+
+It's different from all conventional email protection techniques.
 
 Because it's based on **SVG**.
 
