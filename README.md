@@ -60,7 +60,7 @@ The SVG graphics document is embedded in the HTML hypertext document via:
 
     <object data="svg-email-protection.svg" type="image/svg+xml" /></object>
 
-Note that the same SVG graphics document may be embedded in hypertext once, or multiple times.
+Note that the same SVG graphics document may be embedded in hypertext once - or multiple times.
 
 ### HTML File
 
