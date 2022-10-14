@@ -147,7 +147,7 @@ _______
 
 ## Accessibility
 
-As ever, it's important to ensure that this setup, while protecting against spambots remains as accessible as possible to human visitors.
+As ever, it's important to ensure that this setup remains as ***accessible*** as possible.
 
 On this basis, note the following in the SVG graphics document:
 
