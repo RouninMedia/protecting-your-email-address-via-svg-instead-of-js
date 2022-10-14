@@ -1,4 +1,9 @@
 # Protecting your email address via SVG instead of JS
+
+*For a live demo of this technique, see:*
+
+ - [*SVG-based Email Protection*](https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/svg-email-protection.html)
+
 Email addresses published on webpages usually need to be protected from email-harvesting spambots.
 
 Conventionally, email protection techniques utilise a combination of **HTML**, **CSS** and **JS** - though each approach is subject to its own pros and cons.
