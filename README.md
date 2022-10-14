@@ -1,6 +1,6 @@
 # Protecting your email address via SVG instead of JS
 
-*For a live demo of this technique, see:*
+*For a live demo of this accessible, no-javascript technique, see:*
 
  - [*SVG-based Email Protection*](https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/svg-email-protection.html)
 
@@ -158,6 +158,6 @@ On this basis, note the following in the SVG graphics document:
  ______
 
 
-*To see a live demo of this technique, go to:*
+*To see a live demo of this accessible, no-javascript technique, go to:*
 
  - [*SVG-based Email Protection*](https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/svg-email-protection.html)
