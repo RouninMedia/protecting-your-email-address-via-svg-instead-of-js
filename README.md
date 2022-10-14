@@ -75,7 +75,7 @@ Note that the same SVG graphics document may be embedded in hypertext once, or m
 
 <body>
 
-<p>This is my email: <object class="svg-email-protection" data="svg-email-protection.svg" type="image/svg+xml" /></object></p>
+<p>This is my email: <object class="svg-email-protection" data="svg-email-protection.svg" type="image/svg+xml"></object></p>
 
 </body>
 </html>
