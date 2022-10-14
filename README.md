@@ -55,19 +55,23 @@ Note that the same SVG graphics document may be embedded in hypertext once, or m
 
 ### HTML File
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <title>SVG Email Protection</title>
+    
 <style>
+    
 .svg-email-protection {
   width: 180px;
   height: 24px;
   vertical-align: middle;
 }
+    
 </style>
+    
 </head>
 
 <body>
@@ -79,7 +83,7 @@ Note that the same SVG graphics document may be embedded in hypertext once, or m
 ```
 
 ### SVG File
-```
+```svg
 <svg xmlns="http://www.w3.org/2000/svg"
      lang="en-GB"
      aria-labelledby="title"
@@ -141,4 +145,4 @@ On this basis, note the following in the SVG graphics document:
 
  - the entire SVG document is `aria-labelledby` the SVG document `<title>` indicating a call-to-action
  - the anchor element (`<a>`) inside the SVG has an `aria-label` which has the same call-to-action
- - the SVG is styled such that when the tab-focus falls on the anchor element (`<a>`), that element's child-elements, `<rect />` and the `<text />`, are both highlighted
+ - the SVG is styled such that when the tab-focus falls on the anchor element (`<a>`), both child-elements, `<rect />` and the `<text />`, are highlighted
