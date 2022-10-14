@@ -41,3 +41,104 @@ Consequently, *unlike with an image*, a human visitor may still copy the email a
 
 This would not be possible with a conventional image.
 
+________
+
+## Implementing the Code
+
+In the example below there are two files.
+
+The SVG graphics document is embedded in the HTML hypertext document via:
+
+    <object data="svg-email-protection.svg" type="image/svg+xml" /></object>
+
+Note that the same SVG graphics document may be embedded in hypertext once, or multiple times.
+
+### HTML File
+
+```
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>SVG Email Protection</title>
+<style>
+.svg-email-protection {
+  width: 180px;
+  height: 24px;
+  vertical-align: middle;
+}
+</style>
+</head>
+
+<body>
+
+<p>This is my email: <object class="svg-email-protection" data="svg-email-protection.svg" type="image/svg+xml" /></object></p>
+
+</body>
+</html>
+```
+
+### SVG File
+```
+<svg xmlns="http://www.w3.org/2000/svg"
+     lang="en-GB"
+     aria-labelledby="title"
+     viewBox="0 0 180 24">
+
+  <title id="title">Email Us!</title>
+
+  <defs>
+
+  <style type="text/css"><![CDATA[
+
+  rect {
+    width: 180px;
+    height: 24px;
+    fill: rgb(255, 255, 255);
+  }
+
+  a:focus rect,
+  rect:hover {
+    rx: 4px;
+    ry: 4px;
+    fill: rgb(0, 0, 255);
+  }
+
+  text {
+    font-size: 16px;
+    fill: rgb(0, 0, 255);
+    pointer-events: none;
+  }
+
+  a:focus text,
+  rect:hover + text {
+    fill: rgb(255, 255, 255);
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: underline 1px solid rgb(255, 255, 255);
+    text-underline-offset: 5px;
+  }
+
+  ]]></style>
+
+  </defs>
+
+  <a href="mailto:myemail@mydomain.tld" aria-label="Email Us!">
+    <rect />
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">myemail@mydomain.tld</text>
+  </a>
+
+</svg>
+```
+
+_______
+
+## Accessibility
+
+As ever, it's important to ensure that this setup, while protecting against spambots remains as accessible as possible to human visitors.
+
+On this basis, note the following in the SVG graphics document:
+
+ - the entire SVG document is `aria-labelledby` the SVG document `<title>` indicating a call-to-action
+ - the anchor element (`<a>`) inside the SVG has an `aria-label` which has the same call-to-action
+ - the SVG is styled such that when the tab-focus falls on the anchor element (`<a>`), that element's child-elements, `<rect />` and the `<text />`, are both highlighted
