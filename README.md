@@ -18,9 +18,9 @@ There is always benefit in considering the school of thought which advocates tha
 
 _____
 
-The technique detailed on this page utilises an an approach entirely different from conventional (`CSS`, `JS`, `CSS + JS`) email protection techniques.
+The technique detailed on this page utilises an an approach entirely different from conventional email protection techniques, based on **CSS**, **JS**, **CSS + JS** etc.
 
-Because it's based on **SVG**.
+Because *this* technique is based on **SVG**.
 
 **N.B.** *This technique - and any other email-protection technique utilising front-end-technologies - **won't** protect your published email address from being harvested by the most determined and sophisticated spambots. But, as with many JS-based email-protection techniques, it **will** protect you nevertheless from a great many unsophisticated harvesters and keep your email successfully hidden from any simple or amateurish scripts trawling the web, seeking to copy any unprotected email addresses they find.*
 
