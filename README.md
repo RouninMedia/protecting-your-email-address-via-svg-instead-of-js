@@ -18,9 +18,7 @@ There is always benefit in considering the school of thought which advocates tha
 
 _____
 
-The technique detailed on this page utilises an entirely different approach.
-
-It's different from all conventional email protection techniques.
+The technique detailed on this page utilises an an approach entirely different from conventional (`CSS`, `JS`, `CSS + JS`) email protection techniques.
 
 Because it's based on **SVG**.
 
