@@ -34,7 +34,7 @@ The main advantage of this **SVG-based approach** to protecting emails, is that 
 As such, even when a human visitor has their JavaScript turned off, the email address displayed on the page remains usable, accessible and protected, while remaining secure and hidden from spambots.
 
 ### 2. Permits a standard `mailto:` link
-Unlike other no-JavaScript-required approaches (e.g. obfuscating email addresses by inserting non-visible HTML Comments or inserting visible elements and subsequently hiding them via CSS), this **SVG-based approach** allows for standard `mailto:` links. The twist is: the `mailto:` link exists inside the external SVG document, *not* inside the referring HTML document.
+Unlike other *no-JavaScript-required* approaches (e.g. obfuscating email addresses by inserting non-visible HTML Comments or inserting visible elements and subsequently hiding them via CSS), this **SVG-based approach** allows for standard `mailto:` links. The twist is: the `mailto:` link exists inside the external SVG document, *not* inside the referring HTML document.
 
 ### 3. Conceals content like an image; Copyable like text
 
