@@ -14,7 +14,7 @@ In general, approaches involving **JS** tend to be more sophisticated than alter
 
 But the downside is that **JS** then becomes an unavoidable dependency of that page.
 
-We should consider the school of thought which advocates that while JS may enhance pages, ideally we should want those pages to work even when JavaScript is turned off.
+We should consider the school of thought which advocates that while JS may *enhance* pages, ideally we should want those pages to work even when JavaScript is turned off.
 
 _____
 
