@@ -93,7 +93,7 @@ Note that the same SVG graphics document may be embedded in hypertext once - or 
 <svg xmlns="http://www.w3.org/2000/svg"
      lang="en-GB"
      aria-labelledby="title"
-     viewBox="0 0 180 24">
+     viewBox="0 0 200 24">
 
   <title id="title">Email Us!</title>
 
@@ -102,7 +102,7 @@ Note that the same SVG graphics document may be embedded in hypertext once - or 
   <style type="text/css"><![CDATA[
 
   rect {
-    width: 180px;
+    width: 200px;
     height: 24px;
     fill: rgb(255, 255, 255);
   }
