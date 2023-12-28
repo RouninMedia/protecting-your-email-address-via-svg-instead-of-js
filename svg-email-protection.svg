@@ -12,13 +12,13 @@
   rect {
     width: 200px;
     height: 24px;
+    rx: 4px;
+    ry: 4px;
     fill: rgb(255, 255, 255);
   }
 
   a:focus rect,
   rect:hover {
-    rx: 4px;
-    ry: 4px;
     fill: rgb(0, 0, 255);
   }
 
