@@ -23,8 +23,6 @@
   }
 
   text {
-    x: 0%;  
-    y: 50%;  
     font-size: 16px;
     fill: rgb(0, 0, 255);
     pointer-events: none;
@@ -46,7 +44,7 @@
 
   <a href="mailto:myemail@mydomain.tld" aria-label="Email Us!">
     <rect />
-    <text text-anchor="middle" dominant-baseline="middle">myemail@mydomain.tld</text>
+    <text x="0%" y="50%" text-anchor="middle" dominant-baseline="middle">myemail@mydomain.tld</text>
   </a>
 
 </svg>
