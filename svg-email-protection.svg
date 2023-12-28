@@ -31,6 +31,7 @@
   a:focus text,
   rect:hover + text {  
     fill: rgb(255, 255, 255);
+    font-size: 14px;
     font-weight: 900;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     text-decoration: underline 1px solid rgb(255, 255, 255);
