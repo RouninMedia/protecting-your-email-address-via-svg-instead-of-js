@@ -29,8 +29,7 @@
   }
 
   a:focus text,
-  rect:hover + text {
-    x: 50%;   
+  rect:hover + text {  
     fill: rgb(255, 255, 255);
     font-weight: 900;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -44,7 +43,7 @@
 
   <a href="mailto:myemail@mydomain.tld" aria-label="Email Us!">
     <rect />
-    <text x="0%" y="50%" text-anchor="middle" dominant-baseline="middle">myemail@mydomain.tld</text>
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">myemail@mydomain.tld</text>
   </a>
 
 </svg>
