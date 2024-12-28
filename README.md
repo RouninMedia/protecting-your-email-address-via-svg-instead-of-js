@@ -164,6 +164,6 @@ ________
 
 ## Further Reading:
 
- - Relevant discussion on **Hacker News**: https://news.ycombinator.com/item?id=40340642
- - The **CSS Tricks** article which inspired this solution: https://css-tricks.com/how-to-safely-share-your-email-address-on-a-website/
+ - Relevant discussion (May 2024) on **Hacker News**: https://news.ycombinator.com/item?id=40340642
+ - The **CSS Tricks** article (Oct 2022) which inspired this solution: https://css-tricks.com/how-to-safely-share-your-email-address-on-a-website/
  - **Stack Overflow** discussion: https://stackoverflow.com/questions/163628/making-email-addresses-safe-from-bots-on-a-webpage
