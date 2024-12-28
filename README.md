@@ -95,7 +95,7 @@ Note that the same SVG graphics document may be embedded in hypertext once - or 
      aria-labelledby="title"
      viewBox="0 0 200 24">
 
-  <title id="title">Email Us!</title>
+  <title id="title">Email us at myemail@mydomain.tld</title>
 
   <defs>
 
@@ -133,7 +133,7 @@ Note that the same SVG graphics document may be embedded in hypertext once - or 
 
   </defs>
 
-  <a href="mailto:myemail@mydomain.tld" aria-label="Email Us!">
+  <a href="mailto:myemail@mydomain.tld" aria-label="Email us at myemail@mydomain.tld">
     <rect />
     <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">myemail@mydomain.tld</text>
   </a>
