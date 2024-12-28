@@ -89,7 +89,7 @@ Note that the same SVG graphics document may be embedded in hypertext once - or 
 ```
 
 ### SVG File
-```svg
+```xml
 <svg xmlns="http://www.w3.org/2000/svg"
      lang="en-GB"
      aria-labelledby="title"
