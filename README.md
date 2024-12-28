@@ -159,3 +159,9 @@ On this basis, note the following in the SVG graphics document:
 *To see a live demo of this accessible, no-javascript technique, go to:*
 
  - [*SVG-based Email Protection*](https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/svg-email-protection.html)
+
+________
+
+## Further Reading:
+
+ - Relevant discussion on **Hacker News**: https://news.ycombinator.com/item?id=40340642
